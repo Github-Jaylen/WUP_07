@@ -49,6 +49,16 @@ According to this graph there were more females that are alive than males meanin
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+
+This data shows that 64% of males died due to covid while a much smaller 36% of women died.  Of those that did not die women still hold the higher % at 56 versus the males 44%.  
+
+
 
 ## Inferential results  
 

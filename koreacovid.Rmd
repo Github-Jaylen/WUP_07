@@ -35,9 +35,13 @@ state of a patient must be died or alive - we adjust that as well
 ## Graphical results - use ggplot commands to do this  
 
 
+```{r}
+barchartGC(~result + sex,data=kRdata)
+barchartGC(~result + sex,data=kRdata, type="percent")
 
+```
   
-
+According to this graph there were more females that are alive than males meaning there were more males who died than females.  
 
 
 
@@ -46,7 +50,7 @@ state of a patient must be died or alive - we adjust that as well
 ## Numerical results
 
 
-## Inferential results 
+## Inferential results  
 
 
 

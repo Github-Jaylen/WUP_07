@@ -68,8 +68,9 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-The data provided shows the total amount of people that lived or died due to the disease.  These numbers total 1832 females and 1411 males who lived meaning 25 females and 44 males died,  this means that ratio of men to women dieing was 2:3.  
+The data provided shows the total amount of people that lived or died due to the disease.  These numbers total 1832 females and 1411 males who lived meaning 25 females and 44 males died,  this means that ratio of men to women dyeing was 2:3.  
 
 
 ## Conclusions
 
+In conclusion the disease has killed more men that women in Korea.  the first graph shows this information as well as the numerical data.  the inferential data provides a more detailed look giving more precise numbers on the total number of people form the data giving an odds ratio od 2:3 on female deaths to male deaths.  
